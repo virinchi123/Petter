@@ -1,0 +1,40 @@
+.topbar{
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    padding: 0 2em;
+    box-sizing: border-box;
+    height: 10vh;
+    .topLogo{
+        height:10vh;
+        width:10vh;
+        position: absolute;
+        left:0vw;
+        //justify-self: flex-start;
+    }
+    
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.centerpiece{
+    background-color: #cccccc;
+    height: 80vh;
+    //padding: 2%;
+    box-sizing: border-box;
+}
+
+.footer{
+    height:10vh;
+    background-color: rgb(60,60,60);
+    color: #cccccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
